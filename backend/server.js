@@ -2,6 +2,9 @@ require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
+const crypto = require("crypto");
+
+global.crypto = crypto;
 
 const app = express();
 
