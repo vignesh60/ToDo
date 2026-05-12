@@ -153,7 +153,7 @@ export const TodoList: React.FC = () => {
       <aside className="sidebar">
         <div className="sidebar-header">
           <div className="logo">
-            <span className="logo-icon">*</span>
+            {/* <span className="logo-icon">*</span> */}
             <span className="logo-text">HealDocs</span>
           </div>
         </div>
